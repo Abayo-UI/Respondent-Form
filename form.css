@@ -181,5 +181,8 @@ input[type="reset"]{
     }
     .social-icons{
         width:auto;
+    }
+    select{
+        width:100%;
     }    
 }
