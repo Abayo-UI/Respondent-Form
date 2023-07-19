@@ -187,11 +187,20 @@ input[type="reset"]{
         height:1rem;
     }
     input[type="submit"]{
-        width:3rem;
+        width:4rem;
         height:7vh;    
     }
     input[type="reset"]{
-        width:3rem;
+        width:4rem;
         height: 7vh;
     }
+    .Done{
+        width:70vw;
+        height:15vh;
+        margin:auto;
+        margin-top: 0;
+        display:grid;
+        grid-template-columns: repeat(2, 25vw);
+        column-gap: 25vw;
+    }    
 }
