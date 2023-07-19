@@ -169,14 +169,17 @@ input[type="reset"]{
         padding:0;
     }
     .part1, .welcome, .membership, .occupation, .Hear, .definition, .answers, .container{
-        width:50em;
+        width:30em;
     }
     .introduction{
         height:auto;
-        width:50em;
+        width:30em;
+    }
+
+    input{
+        width:3rem;
     }
     .select input{
-        width:3vw;
         margin-left: 1vw;
         margin-top:-3vw; 
     }
