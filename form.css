@@ -170,11 +170,11 @@ input[type="reset"]{
         margin: 0;
     }
     .part1, .welcome, .membership, .occupation, .Hear, .definition, .answers, .container{
-        width:30em;
+        width:10em;
     }
     .introduction{
         height:auto;
-        width:30em;
+        width:10em;
     }
 
     input{
@@ -186,6 +186,7 @@ input[type="reset"]{
     }
     .container{
         margin:2em 1em;
+        margin-right: 0;
     }
     .social-icons{
         width:auto;
