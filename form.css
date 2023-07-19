@@ -184,5 +184,14 @@ input[type="reset"]{
     }
     select{
         width:100%;
-    }    
+        height:1rem;
+    }
+    input[type="submit"]{
+        width:auto;
+        height:5vh;    
+    }
+    input[type="reset"]{
+        width:auto;
+        height: auto;
+    }
 }
