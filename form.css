@@ -174,7 +174,7 @@ input[type="reset"]{
     }
 
     input{
-        width:30px;
+        width:20vh;
     }
     .select input{
         margin-left: 1vw;
