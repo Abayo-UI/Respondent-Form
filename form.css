@@ -165,11 +165,11 @@ input[type="reset"]{
         font-size: 29px;
     }
     .part1, .welcome, .membership, .occupation, .Hear, .definition, .answers, .container{
-        width:100vw;
+        width:auto;
     }
     .introduction{
         height:auto;
-        width:100vw;
+        width:auto;
     }
     .select input{
         width:3vw;
