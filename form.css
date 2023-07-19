@@ -1,0 +1,178 @@
+*{
+    box-sizing:border-box;
+} 
+
+html{
+    font-size: 18px;
+}
+
+body{
+    background-color: rgb(213, 221, 229);
+}
+
+.container{
+   width:50vw;
+   height:auto;
+   margin: 2rem auto 0 auto;
+   display:flex;
+   flex-direction: column;
+   gap:1rem;
+}
+
+.introduction{
+    width:47vw;
+    height:25vh;
+    background-image:linear-gradient(108deg, rgb(7,34,64), rgb(11,49,88), rgb(95,155,189));
+    color:#fff;
+    border-radius: 10px;
+}
+
+.social-icons{
+    width:30vw;
+    height:auto;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.fa-brands{
+    font-size:2rem;
+}
+
+h1{
+    text-align: center;
+    padding-top:1.5rem;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+.part1, .welcome, .membership, .occupation, .Hear{
+    width:47vw;
+    height:auto;
+    background-color: #fff;
+    border-radius:10px;
+    padding-left:1rem;
+    padding-bottom:1rem;
+}
+
+hr{
+    background-color: #2D547F;
+    border:none;
+    border-radius: 10px 10px 0 0;
+    height:1.5vh;
+    margin:0 0 0 -16px;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top:10px;
+}
+
+.divider{
+    width:100%;
+    height:1px;
+    background-color: grey;
+}
+
+#required{
+  color:#e24358;
+  margin-top:2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+  color:blue;
+}
+
+a:visited{
+ color:blue;
+}
+
+a:hover{
+ color:#2D547F;
+}
+.respondent{
+    font-weight: 600;
+}
+
+input[type="radio"]{
+    display:inline;
+    margin-bottom:1.5vh;
+}
+
+.question{
+    margin-bottom:1vh;
+}
+
+.definition{
+    width:47vw;
+    height:auto;
+    background-color: #fff;
+    border-radius:10px;
+    padding-left:1rem;
+}
+
+.answers{
+    width:50vw;
+    height:auto;
+    display:grid;
+    grid-template-columns: repeat(6, 7vw);
+    column-gap: 2vh;
+}
+
+.select input{
+    width:1vw;
+    margin-left: 1vw;
+    margin-top:-3vw; 
+}
+
+.Done{
+    width:47vw;
+    height:10vh;
+    margin:auto;
+    margin-top: 1em;
+    display:grid;
+    grid-template-columns: repeat(2, 20vw);
+    column-gap: 15vw;
+}
+input[type="submit"]{
+    width:10vw;
+    height:5vh;
+    font-size: 1em;
+    border:none;
+    background-color:#309C3F;
+    cursor: pointer;
+    color:#fff
+}
+
+input[type="reset"]{
+    width:10vw;
+    height:5vh;
+    font-size: 1em;
+    border:none;
+    background-color: #e24358;
+    color:#fff;
+    cursor: pointer;
+}
+
+@media(max-width:700px){
+    html{
+        font-size: 29px;
+    }
+    .part1, .welcome, .membership, .occupation, .Hear, .definition, .answers{
+        width:80vw;
+    }
+    .introduction{
+        height:10vh;
+    }
+    .select input{
+        width:3vw;
+        margin-left: 1vw;
+        margin-top:-3vw; 
+    }
+}
