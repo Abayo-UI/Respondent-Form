@@ -200,7 +200,7 @@ input[type="reset"]{
         margin:auto;
         margin-top: 0;
         display:grid;
-        grid-template-columns: repeat(2, 25vw);
+        grid-template-columns: repeat(2, 15vw);
         column-gap: 25vw;
     }
     .answers{
