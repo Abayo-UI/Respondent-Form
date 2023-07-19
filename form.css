@@ -165,11 +165,11 @@ input[type="reset"]{
         font-size: 29px;
     }
     .part1, .welcome, .membership, .occupation, .Hear, .definition, .answers, .container{
-        width:80em;
+        width:50em;
     }
     .introduction{
         height:auto;
-        width:80em;
+        width:50em;
     }
     .select input{
         width:3vw;
@@ -177,7 +177,7 @@ input[type="reset"]{
         margin-top:-3vw; 
     }
     .container{
-        margin:100em;
+        margin:70em;
     }
     .social-icons{
         width:auto;
@@ -195,7 +195,7 @@ input[type="reset"]{
         height: 7vh;
     }
     .Done{
-        width:70em;
+        width:50em;
         height:15vh;
         margin:auto;
         margin-top: 0;
