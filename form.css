@@ -177,7 +177,7 @@ input[type="reset"]{
         margin-top:-3vw; 
     }
     .container{
-        margin:2rem 1rem;
+        margin:auto;
     }
     .social-icons{
         width:auto;
@@ -205,7 +205,7 @@ input[type="reset"]{
     }
     .answers{
         display:grid;
-        grid-template-columns: repeat(6, 18vw);
+        grid-template-columns: repeat(6, auto);
         column-gap: 1rem;  
     }
 
