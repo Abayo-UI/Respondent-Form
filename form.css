@@ -166,11 +166,11 @@ input[type="reset"]{
     }
 
     .part1, .welcome, .membership, .occupation, .Hear, .definition, .answers, .container{
-        width:80em;
+        width:500px;
     }
     .introduction{
         height:auto;
-        width:80em;
+        width:500px;
     }
 
     input{
