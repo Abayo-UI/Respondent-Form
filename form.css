@@ -191,7 +191,7 @@ input[type="reset"]{
         height:7vh;    
     }
     input[type="reset"]{
-        width:4rem;
+        width:6rem;
         height: 7vh;
     }
     .Done{
@@ -202,5 +202,11 @@ input[type="reset"]{
         display:grid;
         grid-template-columns: repeat(2, 25vw);
         column-gap: 25vw;
-    }    
+    }
+    .answers{
+        display:grid;
+        grid-template-columns: repeat(6, 18vw);
+        column-gap: 1rem;  
+    }
+
 }
