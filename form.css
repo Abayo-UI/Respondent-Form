@@ -162,7 +162,7 @@ input[type="reset"]{
 
 @media(max-width:700px){
     html{
-        font-size: 29px;
+        font-size: 2em;
     }
 
     body{
@@ -182,7 +182,6 @@ input[type="reset"]{
     }
     .container{
         margin:2em;
-        background-color: aqua;
     }
     .social-icons{
         width:auto;
@@ -210,8 +209,8 @@ input[type="reset"]{
     }
     .answers{
         display:grid;
-        grid-template-columns: repeat(6, 10em);
-        column-gap: 20px;  
+        grid-template-columns: repeat(6, 5em);
+        column-gap: 10px;  
     }
 
 }
