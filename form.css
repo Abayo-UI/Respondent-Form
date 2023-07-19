@@ -164,6 +164,10 @@ input[type="reset"]{
     html{
         font-size: 29px;
     }
+
+    body{
+        padding:0;
+    }
     .part1, .welcome, .membership, .occupation, .Hear, .definition, .answers, .container{
         width:50em;
     }
@@ -177,7 +181,8 @@ input[type="reset"]{
         margin-top:-3vw; 
     }
     .container{
-        margin:50em;
+        margin:2em;
+        background-color: aqua;
     }
     .social-icons{
         width:auto;
