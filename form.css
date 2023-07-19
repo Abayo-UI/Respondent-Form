@@ -187,11 +187,11 @@ input[type="reset"]{
         height:1rem;
     }
     input[type="submit"]{
-        width:auto;
-        height:5vh;    
+        width:3rem;
+        height:7vh;    
     }
     input[type="reset"]{
-        width:auto;
-        height: auto;
+        width:3rem;
+        height: 7vh;
     }
 }
