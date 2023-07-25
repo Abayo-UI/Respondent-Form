@@ -176,7 +176,7 @@ input[type="reset"]{
     margin-right: 1rem;
 }
 
-@media(max-width:750px){
+@media screen and (max-width:750px){
      html{
         font-size: 2rem;
      }
