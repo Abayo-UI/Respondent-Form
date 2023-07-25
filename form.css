@@ -7,7 +7,7 @@ body{
 }
 
 html{
-    font-size:1.3rem;
+    font-size:1.5rem;
 }
 
 .container{
@@ -38,11 +38,11 @@ html{
 }
 
 .fa-brands{
-    font-size:2.5rem;
+    font-size:1.5rem;
 }
 
 h1{
-    font-size:3rem;
+    font-size:2rem;
     text-align: center;
     padding-top:1rem;
     font-family: Helvetica;
