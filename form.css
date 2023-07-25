@@ -177,21 +177,3 @@ input[type="reset"]{
     margin-right: 1rem;
 }
 
-
-@media screen and (max-width:750px){
-     html{
-        font-size: 2rem;
-     }
-     input[type="reset"]{
-        width:16rem;
-        height:5rem;
-        font-size: 2rem;
-    }
-    input[type="submit"]{
-        width:16rem;
-        height:5rem;
-        font-size: 2rem;
-    }
-}   
-
-
