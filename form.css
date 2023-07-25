@@ -171,3 +171,16 @@ input[type="reset"]{
     cursor: pointer;
 }
 
+#duration, #role{
+    transform:scale(1.5);
+    margin-right: 1rem;
+}
+
+@media(max-width:750px){
+     html{
+        font-size: 2rem;
+        background-color: #309C3F;
+     }
+}   
+
+
