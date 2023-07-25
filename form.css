@@ -2,33 +2,29 @@
     box-sizing:border-box;
 } 
 
-html{
-    font-size: 18px;
-}
-
 body{
     background-color: rgb(213, 221, 229);
 }
 
 .container{
-   width:50vw;
+   width:40rem;
    height:auto;
-   margin: 2rem auto 0 auto;
+   margin: 2rem auto;
    display:flex;
    flex-direction: column;
    gap:1rem;
 }
 
 .introduction{
-    width:47vw;
-    height:25vh;
+    width:40rem;
+    height:13rem;
     background-image:linear-gradient(108deg, rgb(7,34,64), rgb(11,49,88), rgb(95,155,189));
     color:#fff;
-    border-radius: 10px;
+    border-radius:0.7rem;
 }
 
 .social-icons{
-    width:30vw;
+    width:25rem;
     height:auto;
     margin:auto;
     display: flex;
@@ -43,16 +39,15 @@ body{
 
 h1{
     text-align: center;
-    padding-top:1.5rem;
+    padding-top:1rem;
     font-family: Helvetica;
-    font-weight: 100;
 }
 
 .part1, .welcome, .membership, .occupation, .Hear{
-    width:47vw;
+    width:40rem;
     height:auto;
     background-color: #fff;
-    border-radius:10px;
+    border-radius:0.7rem;
     padding-left:1rem;
     padding-bottom:1rem;
 }
@@ -60,25 +55,25 @@ h1{
 hr{
     background-color: #2D547F;
     border:none;
-    border-radius: 10px 10px 0 0;
-    height:1.5vh;
-    margin:0 0 0 -16px;
+    border-radius: 0.7rem 0.7rem 0 0;
+    height:0.5rem;
+    margin:0 0 0 -1rem;
 }
 
 h2{
     font-size: 2rem;
-    margin-top:10px;
+    margin-top:0.7rem;
 }
 
 .divider{
     width:100%;
-    height:1px;
+    height:0.1rem;
     background-color: grey;
 }
 
 #required{
   color:#e24358;
-  margin-top:2px;
+  margin-top:0.3rem;
 }
 
 a{
@@ -102,48 +97,53 @@ a:hover{
 
 input[type="radio"]{
     display:inline;
-    margin-bottom:1.5vh;
+    margin-bottom:1.5rem;
+}
+
+select{
+    width:100%;
 }
 
 .question{
-    margin-bottom:1vh;
+    margin-bottom:1rem;
 }
 
 .definition{
-    width:47vw;
+    width:40rem;
     height:auto;
     background-color: #fff;
-    border-radius:10px;
+    border-radius:0.7rem;
     padding-left:1rem;
 }
 
 .answers{
-    width:50vw;
+    width:40rem;
     height:auto;
     display:grid;
-    grid-template-columns: repeat(6, 7vw);
-    column-gap: 2vh;
+    grid-template-columns: repeat(6, 6rem);
+    column-gap: 1rem;
 }
 
 .select input{
-    width:1vw;
-    margin-left: 1vw;
-    margin-top:-3vw; 
+    width:1rem;
+    margin-left: 1rem;
+    margin-top:-2rem; 
 }
 
 .Done{
-    width:47vw;
-    height:10vh;
+    width:40rem;
+    height:0.7rem;
     margin:auto;
-    margin-top: 1em;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
     display:grid;
-    grid-template-columns: repeat(2, 20vw);
-    column-gap: 15vw;
+    grid-template-columns: repeat(2, 10rem);
+    column-gap: 21rem;
 }
 input[type="submit"]{
-    width:10vw;
-    height:5vh;
-    font-size: 1em;
+    width:8rem;
+    height:2rem;
+    font-size: 1rem;
     border:none;
     background-color:#309C3F;
     cursor: pointer;
@@ -151,68 +151,12 @@ input[type="submit"]{
 }
 
 input[type="reset"]{
-    width:10vw;
-    height:5vh;
-    font-size: 1em;
+    width:8rem;
+    height:2rem;
+    font-size: 1rem;
     border:none;
     background-color: #e24358;
     color:#fff;
     cursor: pointer;
 }
 
-@media(max-width:700px){
-    *{
-        font-size: 5rem;
-        margin:0;
-    }
-
-    .part1, .welcome, .membership, .occupation, .Hear, .definition, .answers, .container{
-        width:1500px;
-    }
-    .introduction{
-        height:auto;
-        width:1500px;
-    }
-
-    input{
-        width:20vh;
-    }
-    .select input{
-        margin-left: 1vw;
-        margin-top:-3vw; 
-    }
-    .container{
-        margin:2em 0;
-        margin-right: 0;
-    }
-    .social-icons{
-        width:auto;
-    }
-    select{
-        width:100%;
-        height:1rem;
-    }
-    input[type="submit"]{
-        width:4rem;
-        height:7vh;    
-    }
-    input[type="reset"]{
-        width:6rem;
-        height: 7vh;
-    }
-    .Done{
-        width:50em;
-        height:15vh;
-        margin:auto;
-        margin-top: 0;
-        display:grid;
-        grid-template-columns: repeat(2, 15vw);
-        column-gap: 25vw;
-    }
-    .answers{
-        display:grid;
-        grid-template-columns: repeat(6, 5em);
-        column-gap: 15px;  
-    }
-
-}
